@@ -1,0 +1,80 @@
+body {
+	margin: 10% 2% 80%;
+}
+
+header>h1 {
+	text-align: center;
+}
+
+
+div#contenido {
+	background-color: #866336;
+	color: white;
+}
+
+section#contenido div {
+	border: 1pt solid #cbccc1;
+	margin: 5px;
+}
+
+span#fotoperfil img{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	width:120px;
+	height:110px;
+	float:left;
+}
+
+div#datos {
+	text-align: center;
+}
+
+div#datos p {
+	text-align: left;
+	margin: 5px;
+}
+
+span#espolfoto img {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	width:110px;
+	height:100px;
+	float:left;
+}
+
+span#colegiofoto img {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	width:110px;
+	height:100px;
+	float:left;
+}
+
+div#educacion div {
+	padding-left: 100pt;
+}
+
+div#educacion div > p  {
+	font-style: italic;
+}
+
+div.habilidades > div {
+	display: inline-block;
+	border-radius: 2em;
+	padding: 5pt;
+}
+
+div.habilidades div:first-child {
+	background-color: #364ab4;
+}
+
+div.habilidades div:last-child {
+	box-shadow: inset 3px 3px 1px 1px #ccc;
+}
+
+div.habilidades {
+	display: inline-block;
+}
