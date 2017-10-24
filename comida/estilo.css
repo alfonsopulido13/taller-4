@@ -1,72 +1,132 @@
+#titulo-sitio{
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: #bc8609;
+	background-color:rgba(255,20,0,0.3);
+}
 body{
-	background-color: #fff0f8;
-	width: 98%;
+	background-image: url('fondo1.jpg');
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: top left;
+	background-attachment: fixed;
+	background-color: #ff1400;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-body{
-	font-family: "Verdana";
-}
-header h1{
-	font-family: 'Anton', sans-serif;
-	color:  #414239;
-	font-size: 4em;
-	margin: 10px 0px;
-}
-h2{
-	font-family: 'Lobster', cursive;
-	color:  #9e0947;
-	font-size: 2,5em;
-}
-
-div{
-	border-style: dotted;
-	border-width: 1px;
-	border-color: #d7d8cb;
+	width: 90%;
 
 }
-
-video{
-	width: 350px;
-	height: 200px;
-	visibility: hidden;
-	display: none;
-	visibility: visible;
-	display: block;
+section{
+	background-color:rgba(255,20,0,0.3);
 }
-.sinopsis{
-	text-align: justify;
-	margin-right: 3em;
-	width: 500px;
+div.resumenesrecetas{
+	border-style: ridge;
+	border-radius: 15pt;
+	background-repeat: no-repeat; 
+	background-size: 200px 170px;
+	margin-top: 1em;
+	margin-left: 10px;
+	width: 200px;
+	height: 250px;
+	background-position: top;
+	display: inline-block;
+}
+.cajas:hover{
+	opacity: 0.7;
+}
 
+div#recetas{
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	padding-bottom: 2em;
+	border-color: #020909;
+}
+
+.titulo-receta{
+	font-variant: small-caps;
+	background-color:rgba(255,20,0,0.3);
+	margin-top: 0px;
+}
+.categoria{
+	border-style: solid;
+	margin-top: 0px;
+	border-width: 1px 0px 0px;
+	width: auto;
+	height: auto;
 }
 
 h4{
-	font-size: 1em;
-	color: #ce105c;
+	color:  #d69f2a;
+	margin: 0px;
+}
+
+p{
+	margin: 0px 0px 2px;
+	padding-left: 2px;
+	color: black;
+
+	text-align: justify;
+}
+
+a:link{
+	color: #db990a;
+}
+a:hover{
+	color: #edc163;
+	text-decoration: none;
+}
+a:visited{
+	color: #7c652e;
+}
+
+.cajas{
+	background-size: 200px 175px;
+	background-repeat: no-repeat;
+
+	padding-bottom: 8em;
+	margin: 0px;
+
+	border-radius: 10pt 10pt 0pt 0pt;	
 }
 
 
-
-li[famoso="principal"]{
-	font-weight: bold;
-}
-li[famoso="secundario"]{
-	font-style: italic;
-}
-ul{
-	list-style-image: url('https://goo.gl/6hPSSH');
-	margin-right: 3em;
-}
-img{
+.detalles > div > img{
 	width: 200px;
-	margin-right: 3em;
+	height: 170px;
 }
 
-img:hover{
-	opacity: 0.8;
+.detalles{
+	margin: 1em 0em 1em;
+	border-width: 0pt 0pt 1pt;
+	border-style: dotted;
+	border-color: #e0d2b1;
 }
-table {
-	width: auto;
+.detalles div{
+	display: inline-block;	
+}
+.desc{
+	width:800px;
+}
 
-} 
+.descripcion{
+	text-align: justify;
+	padding-left: 5px;
+
+}
+
+#cajaLeche{
+	background-image: url('tresle.jpg');
+}
+#cajaChocolate{
+	background-image: url('choco.jpg');
+}
+#cajaPastel{
+	background-image: url('pastel2.jpg');
+}
+#cajaGalletas{
+	background-image: url('oreo2.jpg');
+}
+#cajaMermelada{
+	background-image: url('merme2.jpg');
+}
